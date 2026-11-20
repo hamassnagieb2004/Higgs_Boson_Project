@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# # =========================
+# # Jupyter Notebook
+# # =========================
+# .ipynb_checkpoints/
+
+# =========================
+# Data Files
+# =========================
+data/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+*.gz
+
+# =========================
+# Machine Learning Models
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Results & Outputs
+# =========================
+results/
+outputs/
+logs/
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE & System Files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
+*.swp
